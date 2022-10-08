@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href='./media/favicon.jpg' rel='icon' type='image/x-icon'/>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.0.0/animate.min.css" rel="stylesheet"/>
+    <link href="./css/styles.css" rel="stylesheet"/>
+    <style>
+section.work{padding:100px 0 50px;text-align:center}
+.title-work{font-size:29px}
+.title-work span{cursor:pointer}
+.h1-work{font-size:32px;font-weight:bold;color:var(--primary-color);text-transform:uppercase;margin:40px 0 20px}
+.p-work{font-size:24px;max-width:1100px;margin:auto;text-align:justify;text-align-last:justify}
+.tab-title .tab-panel{text-align:center;background:#f2f2f2}
+.tab-title .tab-panel li{cursor:pointer;display:inline-block;margin:0;padding:20px 60px;color:var(--primary-color);font-size:29px;text-transform:uppercase;font-weight:500}
+.tab-title .tab-panel li.active{background:var(--primary-color);color:#fff}
+.tab-content .tab{display:none;opacity:0}
+.tab-content .tab.active{display:flex;flex-flow:row wrap;opacity:1}
+.tab-content .tab-item{width:50%;position:relative;animation:fadeIn .5 linear}
+.tab-content .tab.active .tab-item{animation:fadeIn .5s linear}
+.tab-content .item-image{position:relative;padding-bottom:70%}
+.tab-content .item-image img{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover}
+.tab-content .item-content{position:absolute;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.5);opacity:0;display:flex}
+.tab-content .tab-item:hover .item-content{opacity:1;transition:opacity .5s}
+.tab-content .item-content-text{margin:auto;text-align:center}
+.tab-content .item-content-text h3{font-size:27px;color:#fff;text-transform:uppercase;margin-bottom:20px}
+.tab-content .item-content-text p{font-size:18px;color:#eee}
+@media (max-width:768px){
+  section.work{padding:30px 0}
+  .tab-title .tab-panel li{font-size:18px}
+  .tab-content .tab-item{width:100%}
+}
+@media (max-width:576px) {
+  .title-work{font-size:23.5px}
+  .h1-work{font-size:26.5px}
+  .p-work{font-size:18px}
+  .tab-title .tab-panel li{font-size:18px;width:49%;padding:10px 0}
+}
+    </style>
+</head>
+<body>
+    <div class='wrapper'>
+      <header>
+        <div class='container-large'>
+          <div class='header-flex'>
+            <div class='header-logo'>
+              <a href='/' title='Gregen'>
+                <img alt='Gregen' src='https://1.bp.blogspot.com/-yO1S92f0N2E/YRzP0CaePyI/AAAAAAAAFRM/0oFGIj_spmc5TZDGY89rMvtNha-XVpw3QCLcBGAsYHQ/s320/logo.png' />
+              </a>
+            </div>
+            <div class='header-menu'>
+              <ul class='header-link'>
+                <li><a href='/p/about.html' title='Giới Thiệu'>Giới Thiệu</a></li>
+                <li><a href='#service' title='Dịch Vụ'>Dịch Vụ</a></li>
+                <li><a href='/p/work.html' title='Dự Án'>Dự Án</a></li>
+                <li><a href='/search/label/Tin tức' title='Tin tức'>Tin tức</a></li>
+                <li><a href='/search/label/Blog' title='Blog'>Blog</a></li>
+                <li><a href='/p/contact.html' title='Liên Hệ'>Liên Hệ</a></li>
+              </ul>
+              <div class='menu-pc'>
+                <div class='menu-pc-icon'>
+                  <svg fill='none' height='30' stroke='#333' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' viewBox='0 0 24 24' width='30' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M0 0h24v24H0z' fill='none' stroke='none'></path>
+                    <line x1='9' x2='20' y1='6' y2='6'></line>
+                    <line x1='9' x2='20' y1='12' y2='12'></line>
+                    <line x1='9' x2='20' y1='18' y2='18'></line>
+                    <line x1='5' x2='5' y1='6' y2='6.01'></line>
+                    <line x1='5' x2='5' y1='12' y2='12.01'></line>
+                    <line x1='5' x2='5' y1='18' y2='18.01'></line>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <a class='menu-toggle' href='javascript:;'></a>
+          </div>
+        </div>
+      </header>
+      <div class='blog section' id='content'>
+        <section class="work">
+          <div class="container">
+            <div class="title-work"><span>
+                <div class="triangle"></div> Cùng tham khảo các dự án của Gregen
+              </span></div>
+            <div class="more-work">
+              <h1 class="h1-work">GREGEN ECOSYSTEM BRANDING</h1>
+              <p class="p-work">Chúng tôi luôn đặt tâm huyết vào từng dự án để có thể mang lại những sản phẩm chất lượng nhằm tạo giá trị cho khách hàng. Sự sáng tạo và tính chuyên nghiệp là điều bạn sẽ thấy tại GREGEN</p>
+            </div>
+          </div>
+        </section>
+        <section class="work-content">
+          <div class="tab-title">
+            <ul class="tab-panel">
+              <li class="active" data-tab="tab-1">Production</li>
+              <li data-tab="tab-2">Design</li>
+              <li data-tab="tab-3">Training</li>
+              <li data-tab="tab-4">Marketing</li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <div class="tab active" id="tab-1" data-label="Production">
+              <div class="tab-item"><a href="/blog/post_655.html" title="Tình Yêu Là Món Quà ">
+                  <div class="item-image"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEgT9kPLeqd37WoxOKEV6VWGr16YMoZiYJhg945ZDot9xDN07ezYCD4QpTb9qmxRH-iekMpP-nsYj6wstCQ5BZO-e7ORIw_YV8LNGM76IGDHdHGqQRfAeNJTJcFM0wXIO3GQeUaWz2B3g5XS3pJzP42m9TUqKRllBZChtIa_X1rKCxo4VWl4sqhM1NNn3A=s1600"></div>
+                  <div class="item-content">
+                    <div class="item-content-text">
+                      <h3>Tình Yêu Là Món Quà </h3>
+                      <p>Mô tả</p>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="tab-item"><a href="/blog/post_25.html" title="ANH NHỚ CHỨ Official">
+                  <div class="item-image"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEgshpwZ11DTyd6xMG9ZGBS-Kdr3Kp5bKGtW1_llXMgJ4kyEZ2EykGuAZQ1tMu1vOLv9vueJjMROiMqx4-jdZJZQjswpqabkAcwH2ho1nLpg2kd3oY-7VdEKLOdkWP3xeOZ7BbZvbF2J35H73qxqOdGmebz5XnpwEP-7Rx9E_zWoF6p7-SeCJOoK-7wYyw=s1600"></div>
+                  <div class="item-content">
+                    <div class="item-content-text">
+                      <h3>ANH NHỚ CHỨ Official</h3>
+                      <p>Mô tả</p>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="tab-item"><a href="https://gregen-vn.blogspot.com/2022/02/tong-ket-cmo-40.html" title="Tổng kết CMO 4.0">
+                  <div class="item-image"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEgxrG9Zm7U00-UDwnI4fCDAqnJ71mwInShtfWVQ6cUFJiW0j-WfUNnurNDAyGVhgBuTanDAAPbsObENE-0CC3Ev9s1EuDDYq9aqpKMu0B0f2pRDKJE00KK-nk5oGyeGNKOTS98vgvzd-kpeMA9Pr6qc2YuJUG67PY9YlOZ3xJXTYvtX7qeLDkY8GlgAkA=s1600"></div>
+                  <div class="item-content">
+                    <div class="item-content-text">
+                      <h3>Tổng kết CMO 4.0</h3>
+                      <p>Mô tả</p>
+                    </div>
+                  </div>
+                </a></div>
+              <div class="tab-item"><a href="/blog/post_931.html" title="ELLY">
+                  <div class="item-image"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEjKmwgAieKFzE6uuLr-7Gm_RJc-lZSNVoExBFDRd_zFsJCkFAhl_tB0whp1rNnLlLr1dNzIn3aNk7ASxVgJ0UxmqdvHdXV4iMZdQ4MOd7M5eXZciftc0O8DLR7jywYmwuVwZ-1ZtNse4HwIFVtIJAqQJQZyjgg3XXV85DRJYvN7xRNIbKTCn5Hj1XXeAg=s1600"></div>
+                  <div class="item-content">
+                    <div class="item-content-text">
+                      <h3>ELLY</h3>
+                      <p>Mô tả</p>
+                    </div>
+                  </div>
+                </a></div>
+            </div>
+            <div class="tab" id="tab-2" data-label='Design'>
+                <div class="tab-item"><a href="/blog/post_187.html" title="TVC Autoshop">
+                    <div class="item-image"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEga2UffQxxo0xiTwVyJeB1Nd9s1E2w-YPf9PbkFpMG51YQbCVLejiyT2aC_-_CLSwPcbd77PulW_vXBeOVoD9TUDI7lrSf1C1RUMOBv3sc8DIS9f7OBRmI_wvH9yJeNlLk8uuGvjFudlZHicQEUwSNbjnjkOzzcJaagOcr8n0EiYGQ-XEd8cJ9FB9bTYw=s1600"></div>
+                    <div class="item-content">
+                      <div class="item-content-text">
+                        <h3>TVC Autoshop</h3>
+                        <p>Mô tả</p>
+                      </div>
+                    </div>
+                  </a></div>
+                <div class="tab-item"><a href="/blog/post_24.html" title="TVC - The Deway School">
+                    <div class="item-image"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEibKuE0kF5M5ZQRaymYKJhh4wHG7-4DRAxOwN8UBpUbr-lCeraNINlWqRAxaOEV4OUgmTD1LIRHDEh0dCbyE3AhtvIm6sDOo2UdFLV69AGJsym1nqUzE68CgD9o7eLlM41ZpJFwvLrMsjl_xABr3SbgU6QUa0oPMm4pivsXFj2wFUbf7oRqdUaj_-BFrw=s1600"></div>
+                    <div class="item-content">
+                      <div class="item-content-text">
+                        <h3>TVC - The Deway School</h3>
+                        <p>Mô tả</p>
+                      </div>
+                    </div>
+                  </a></div>
+            </div>
+            <div class="tab" id="tab-3" data-label='Training'>
+                <div class="tab-item"><a href="/blog/post_585.html" title="SALON T&amp;T">
+                    <div class="item-image"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEgKTAKvEzclD4a3x7-cLnh09kuA4kpVmyVPfSnjysHidhq3FjucpoQPmyVPrAhnH2nHATWxfmZJHZGdsmLFvlVRIsGtYdisKIIMhECcX_QRgjSeuLlCBG3JXA6ekYvflL67v3PVb9bXz1DBMl1Z3ViFvDBARhSPDB9mkDzku5aoOLJsEOlL2wvrYpPgOw=s1600"></div>
+                    <div class="item-content">
+                      <div class="item-content-text">
+                        <h3>SALON T&amp;T</h3>
+                        <p>Mô tả</p>
+                      </div>
+                    </div>
+                  </a></div>
+                <div class="tab-item"><a href="/blog/post_387.html" title="TVC Fate Coffee">
+                    <div class="item-image"><img src="https://blogger.googleusercontent.com/img/a/AVvXsEht6GM21GC-Kq7pL7JU_pxpmErl1bE-RotkJaRSQu7k23rc0XWxi6JfgmwvIyF_FFnWMC84qdbtu1gmmHHlYsx8btHpEAlIz5oFaO4iRF7KdG5cH7vbUYoDnaq-YMfZ_Wkyd3jD5zXr_En2mN20VCR97i5E0kKp2eTXnAguAG9H_iRqfo8bQmj0ZlYsNw=s1600"></div>
+                    <div class="item-content">
+                      <div class="item-content-text">
+                        <h3>TVC Fate Coffee</h3>
+                        <p>Mô tả</p>
+                      </div>
+                    </div>
+                  </a></div>
+            </div>
+            <div class="tab" id="tab-4" data-label='Marketing'>
+            </div>
+          </div>
+        </section>
+
+        <section class='contact'>
+          <div class='container'>
+            <div class='flex'>
+              <div class='col-left'>
+                <div class='box'>
+                  <h2>KẾT NỐI VỚI CHÚNG TÔI</h2>
+                  <p> HÃY BẮT ĐẦU MỘT DỰ ÁN CÙNG CHÚNG TÔI <br /> GREGEN LUÔN MONG MUỐN ĐƯỢC LẮNG NGHE & THỰC HIỆN CÙNG BẠN </p>
+                  <div class='information'> info@gregen.vn <br /> +84.983.656.054 </div>
+                </div>
+              </div>
+              <div class='col-right'>
+                <div class='contact-form wow bounceInUp' data-wow-delay='0.5s'>
+                  <div class='header-form'>
+                    <h3>TƯ VẤN MIỄN PHÍ</h3>
+                  </div>
+                  <div class='body-form'>
+                    <form action='' method='POST' target='hidden_iframe'>
+                      <input id='name' placeholder='Họ & tên *' required='' type='text' value='' />
+                      <input id='phone' pattern='(\+84|0)\d{9,10}' placeholder='Số điện thoại *' required='' spellcheck='false' type='text' value='' />
+                      <input id='email' placeholder='Email *' required='' type='email' value='' />
+                      <input id='note' placeholder='Dịch vụ bạn quan tâm' type='text' value='' />
+                      <div class='required-text'>(*) Thông tin bắt buộc</div>
+                      <button type='submit'>Đăng ký tư vấn</button>
+                      <p class='success-form'>Gửi thành công</p>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class='container'>
+          <div class='flex'>
+            <div class='footer-left'>
+              <img alt='Gregen' class='footer-logo' src='https://1.bp.blogspot.com/-yO1S92f0N2E/YRzP0CaePyI/AAAAAAAAFRM/0oFGIj_spmc5TZDGY89rMvtNha-XVpw3QCLcBGAsYHQ/s320/logo.png' />
+              <h4>Công ty TNHH Thế Hệ Xanh Gregen</h4>
+              <ul class='footer-info'>
+                <li><b>M</b> +84.983.656.054</li>
+                <li><b>E</b> info@gregen.com</li>
+                <li><b>A</b> 71 Nguyễn Chí Thanh, Ba Đình, Hà Nội</li>
+              </ul>
+              <ul class='footer-social'>
+                <li><a href='https://facebook.com' title='Facebook'><img alt='Facebook' src='https://1.bp.blogspot.com/-5PqbmmCVEOw/YRzPzq5VJjI/AAAAAAAAFRA/OPtiOtea6Hgd1KCrBUDCMb79bq1r7HWxACLcBGAsYHQ/s100/facebook.png' /></a></li>
+                <li><a href='https://instagram.com' title='Instagram'><img alt='Instagram' src='https://1.bp.blogspot.com/-CEbvVyIquXQ/YRzP0F7fQvI/AAAAAAAAFRI/VSA2r1UMp3k7dQ05NfF07MxQvyfZ17rdQCLcBGAsYHQ/s100/instagram.png' /></a></li>
+                <li><a href='#' title='Be'><img alt='Be' src='https://1.bp.blogspot.com/-nsIH5pSyonc/YRzPzZDcNTI/AAAAAAAAFQ4/qpBRseJSDVY_tvQTPh-2LKZk507i-xt1wCLcBGAsYHQ/s100/be.png' /></a></li>
+                <li><a href='https://youtube.com' title='Youtube'><img alt='Youtube' src='https://1.bp.blogspot.com/-TYnUp_SKOf8/YRzP1tAwe2I/AAAAAAAAFRg/C4Hb4b6C0jcEz8P9Rqk81Tb3PdjIyDFkQCLcBGAsYHQ/s100/youtube.png' /></a></li>
+              </ul>
+            </div>
+            <div class='footer-right'>
+              <ul class='footer-menu'>
+                <li><a href='/p/about.html' title=''>GIỚI THIỆU</a></li>
+                <li><a href='#service' title=''>DỊCH VỤ</a></li>
+                <li><a href='/p/work.html' title=''>DỰ ÁN</a></li>
+                <li><a href='/search/label/Tin tức' title='Tin tức'>TIN TỨC</a></li>
+                <li><a href='/search/label/Blog' title=''>BLOG</a></li>
+                <li><a href='/p/contact.html' title=''>LIÊN HỆ</a></li>
+              </ul>
+              <p>Bắt đầu một dự án tuyệt với<br /> cùng đội ngũ của Gregen!</p>
+              <a class='contact-now' href='/p/contact.html' title='Liên hệ'>Liên hệ ngay</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <div id="mobile-menu">
+    <div class="mobile-search">
+        <form action="/search" class="sf" method="get">
+        <input autocomplete="off" class="si" name="q" placeholder="Tìm kiếm" spellcheck="false" type="text" />
+        <button aria-label="Tìm kiếm" class="sb" type="submit" value=""></button>
+        </form>
+    </div>
+    <div class="mobile-menu-content">
+        <div class="nav-menu-mobile"></div>
+        <div class="top-menu-mobile"></div>
+    </div>
+    </div>
+    <div class="mobile-menu-overlay"></div>
+    <div class="menu-pc-fixed">
+    <div class="menu-header-flex">
+        <div class="title">GREGEN</div>
+        <a class="menu-pc-close" href="javascript:;">
+        <svg class="icon icon-tabler icon-tabler-x" fill="none" height="28" stroke="#1ab26b" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+            <line x1="18" x2="6" y1="6" y2="18"></line>
+            <line x1="6" x2="18" y1="6" y2="18"></line>
+        </svg>
+        </a>
+    </div>
+    <div class="menu-body-flex">
+        <div class="menu-body-left">
+        <ul class="menu-body">
+            <li><a href="/about.html" title="Giới Thiệu">Giới Thiệu</a></li>
+            <li><a href="/work.html" title="Dự Án">Dự Án</a></li>
+            <li><a href="/search/label/Blog" title="Blog">Blog</a></li>
+            <li><a href="#service" title="Dịch Vụ">Dịch Vụ</a></li>
+            <li><a href="/search/label/Tin tức" title="Tin tức">Tin tức</a></li>
+            <li><a href="/contact.html" title="Liên Hệ">Liên Hệ</a></li>
+        </ul>
+        </div>
+        <div class="menu-body-right">
+        <div class="text">
+            <ul>
+            <li><b>E</b>: info@gregen.com</li>
+            <li><b>M</b>: +84.983.656.054</li>
+            <li><b>A</b>: 71 Nguyễn Chí Thanh, Ba Đình, Hà Nội</li>
+            </ul>
+        </div>
+        <div class="social">
+            <a href="#" title="Facebook">
+            <svg class="icon icon-tabler icon-tabler-brand-facebook" fill="none" height="40" stroke="#1ab26b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="40" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+                <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"></path>
+            </svg>
+            </a>
+            <a href="#" title="Instagram">
+            <svg class="icon icon-tabler icon-tabler-brand-instagram" fill="none" height="42" stroke="#1ab26b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="42" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+                <rect height="16" rx="4" width="16" x="4" y="4"></rect>
+                <circle cx="12" cy="12" r="3"></circle>
+                <line x1="16.5" x2="16.5" y1="7.5" y2="7.501"></line>
+            </svg>
+            </a>
+            <a href="#" title="Behance">
+            <svg class="icon icon-tabler icon-tabler-brand-behance" fill="none" height="42" stroke="#1ab26b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="42" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+                <path d="M3 18v-12h4.5a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-4.5"></path>
+                <line x1="3" x2="7.5" y1="12" y2="12"></line>
+                <path d="M14 13h7a3.5 3.5 0 0 0 -7 0v2a3.5 3.5 0 0 0 6.64 1"></path>
+                <line x1="16" x2="19" y1="6" y2="6"></line>
+            </svg>
+            </a>
+            <a href="#" title="Youtube">
+            <svg class="icon icon-tabler icon-tabler-brand-youtube" fill="none" height="42" stroke="#1ab26b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="42" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none" stroke="none"></path>
+                <rect height="14" rx="4" width="18" x="3" y="5"></rect>
+                <path d="M10 9l5 3l-5 3z"></path>
+            </svg>
+            </a>
+        </div>
+        <a class="contact-now" href="/contact.html" title="Liên hệ">Liên hệ ngay</a>
+        </div>
+    </div>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
